@@ -1,20 +1,39 @@
+* {
+    background: rgb(216, 211, 211);
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .main-page {
     color: red;
+    font-size: 34px;
+    font-weight: 700;
 }
 
-ul {
+.ul-git {
     font-size: 22px;
     color: blue;
+    padding-left: 20px;
 }
 
-.ul-list {
+.ol-list {
     font-size: 22px;
-    background: yellow;
     color: green;
-    width: 200px;
-    
+    width: 10%;
+    display: inline-block;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.title-ul {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-right: 90px;
+    padding-left: 90px;
+
 }
